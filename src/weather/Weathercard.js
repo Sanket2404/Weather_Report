@@ -16,7 +16,7 @@ const Weathercard = ({tempInfo}) => {
      if( weathermood){
       switch( weathermood){
         
-        case "Clouds":setWeatherState("wi-day-cloudy");
+        case "Cloud":setWeatherState("wi-day-cloudy");
           break;
 
         case "Haze":setWeatherState("wi-day-haze");
